@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- DaisyUi plus Tailwind CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://cdn.tailwindcss.com"></script>
+
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							clifford: "#da373d",
+						},
+					},
+				},
+			};
+		</script>
+
+		<!-- google font cdn -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Fontawsome CDN  -->
+		<script
+			src="https://kit.fontawesome.com/d55911a0e1.js"
+			crossorigin="anonymous"
+		></script>
+
+		<style>
+			.font-manrope {
+				font-family: "Manrope", sans-serif;
+			}
+		</style>
+		<title>Rinterio</title>
+	</head>
+	<body class="font-manrope">
+		
+		<header class="md:container mx-auto">
+			<div
+				class="md:hidden lg:hidden flex justify-between navbar bg-base-100 overflow-hidden -mr-3"
+			>
+				<div class="navbar-start">
+					<a class="w-[140px]"><img src="./assets/logo.png" alt=""></a>
+				</div>
+				
+				<div class="navbar-end">
+					<div class="dropdown">
+						<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								class="h-5 w-5"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M4 6h16M4 12h8m-8 6h16"
+								/>
+							</svg>
+						</div>
+						<ul
+							tabindex="0"
+							class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+						>
+                        <li><a>Home</a></li>
+						<li><a>Services</a></li>
+						<li><a>Portfolio</a></li>
+						<li><a>Blogs</a></li>
+						<li><a>Contact Us</a></li>
+					</div>
+				</div>
+			</div>
+			
+		</header>
+
+        <header class="hidden md:block lg:block md:container mx-auto py-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+						<li><a>Services</a></li>
+						<li><a>Portfolio</a></li>
+						<li><a>Blogs</a></li>
+						<li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <a class="w-[140px]"><img src="./assets/logo.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+						<li><a>Services</a></li>
+						<li><a>Portfolio</a></li>
+						<li><a>Blogs</a></li>
+						<li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-ghost btn-circle">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-6"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+							/>
+						</svg>
+					</button>
+					<button class="btn btn-ghost btn-circle">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-5 w-5"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+							/>
+						</svg>
+					</button>
+					<a class="btn bg-[#ABEF5F] rounded-[50px]"
+						>Book Consult
+						<img class="w-[25px]" src="./assets/arrow-up.png" alt=""
+					/></a>
+				</div>
+                </div>
+              </div>
+
+
+        </header>
+		<main class="">
+            <!-- hero section  -->
+            <section class="md:container mx-auto py-10 lg:py-20 flex items-center">
+                <div class="lg:w-80% mx-auto flex flex-col items-center gap-3 lg:gap-7">
+                    <img class="w-[60%] pb-5" src="./assets/banner.png" alt="">
+                    <h1 class="text-2xl lg:text-6xl font-bold text-center text-[#212121]">A barn house of this design has a <br>striking appearance</h1>
+                    <p class="text-lg text-[#494949] text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+                    <a class="btn bg-[#ABEF5F80] rounded-[50px]">View Details
+                        <img class="w-[25px]" src="./assets/arrow-up01.png" alt=""
+                    /></a>
+                </div>
+                            
+            </section>
+
+            <!-- About Section -->
+            <section class="md:container mx-auto relative flex py-10 lg:py-20">
+                <!-- About Us section text part -->
+                <div>
+                    <a class="btn bg-[#ABEF5F] rounded-[50px]"
+						><img class="w-[25px]" src="./assets/arrow-up.png" alt=""
+                        />About Us
+					</a>
+                </div>
+                <!-- About Us section image -->
+                <div><img src="./assets/Rectangle.png" alt=""></div>
+            </section>
+        </main>
+		<footer></footer>
+	</body>
+</html>
