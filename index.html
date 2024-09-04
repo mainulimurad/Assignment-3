@@ -45,47 +45,52 @@
 		<title>Rinterio</title>
 	</head>
 	<body class="font-manrope">
-		
-		<header class="md:container mx-auto">
-			<div
-				class="md:hidden lg:hidden flex justify-between navbar bg-base-100 overflow-hidden -mr-3"
-			>
-				<div class="navbar-start">
-					<a class="w-[140px]"><img src="./assets/logo.png" alt=""></a>
-				</div>
-				
-				<div class="navbar-end">
-					<div class="dropdown">
-						<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-5 w-5"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M4 6h16M4 12h8m-8 6h16"
-								/>
-							</svg>
-						</div>
-						<ul
-							tabindex="0"
-							class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-						>
-                        <li><a>Home</a></li>
-						<li><a>Services</a></li>
-						<li><a>Portfolio</a></li>
-						<li><a>Blogs</a></li>
-						<li><a>Contact Us</a></li>
-					</div>
-				</div>
-			</div>
-			
-		</header>
+        <!-- Header for mobile -->
+        <header class="md:container mx-auto ">
+            <div class="md:hidden lg:hidden flex justify-between navbar bg-base-100  -mr-400">
+              <div class="navbar-start">
+                <a class="w-[140px]"><img src="./assets/logo.png" alt=""></a>
+              </div>
+          
+              <div class="navbar-end">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16"
+                        />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                      style="right: 0;"
+                    >
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  
+              </div>
+            </div>
+          </header>
+
+          
+          
+          
+        <!-- Header for desktop -->
 
         <header class="hidden md:block lg:block md:container mx-auto py-5">
             <div class="navbar bg-base-100">
@@ -399,8 +404,131 @@
                 </div>
             </section>
 
+            <!-- Testimonial sections -->
+             <section class="py-10 lg:py-20 px-3 lg:px-0">
+
+                <div class="md: container mx-auto">
+
+                    <div class="flex justify-center">
+                        <a class="btn bg-[#ABEF5F33] rounded-[50px] shaddow-0 mb-1.5">
+                            <img class="w-[25px]" src="./assets/left-arrow.png" alt=""/>Testimonials
+                        </a>
+                    </div>
+                    <h1 class="text-2xl lg:text-6xl font-bold text-[#212121] mb-2.5 text-center">Our Customers Say</h1>
+                    <p class="text-lg text-[#494949] mb-3.5 text-center">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 rounded-xl">
+                        <div class=" p-10 bg-[#ABEF5F33]">
+                            <div class="flex gap-5">
+                                <div>
+                                    <img class="w-[70px] rounded-full" src="./assets/client-1.jpg" alt="">
+                                </div>
+                                <div class="content-center">
+                                    <h4 class="text-xl font-bold">
+                                        Stan Douglas
+                                    </h4>
+                                    <p>Businessman</p>
+                                </div>
+                            </div>
+                            <div class="">
+                                <p class="text-lg text-[#494949] mt-3.5">Rinterio made finding our dream home effortless! Their team is professional, attentive, and truly understands the market. Highly recommend!</p>
+                            </div>
+                        </div>
+                        <div class=" p-10 bg-[#ABEF5F33]">
+                            <div class="flex gap-5">
+                                <div>
+                                    <img class="w-[70px] rounded-full" src="./assets/client-2.jpg" alt="">
+                                </div>
+                                <div class="content-center">
+                                    <h4 class="text-xl font-bold">
+                                        Opal Fitzgerald
+                                    </h4>
+                                    <p>Businesswoman</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg text-[#494949] mt-3.5">Thanks to Rinterio, selling our home was stress-free and fast. Their expertise and guidance were invaluable!</p>
+                            </div>
+                        </div>
+                        <div class=" p-10 bg-[#ABEF5F33]">
+                            <div class="flex gap-5">
+                                <div>
+                                    <img class="w-[70px] rounded-full" src="./assets/client-3.jpg" alt="">
+                                </div>
+                                <div class="content-center">
+                                    <h4 class="text-xl font-bold">
+                                        Ged Goodman</h4>
+                                    <p>Businessman</p>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-lg text-[#494949] mt-3.5">Rinterio exceeded our expectations with their exceptional service. They found us the perfect property, and the process was smooth from start to finish!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
             <!-- contact section -->
+            <section class="w-full h-full bg-no-repeat bg-cover py-10 lg:py-20 sm:px-2.5" style="background-image: url(./assets/bg.jpg);">
+                <div class="md: container mx-auto px-3 lg:px-0">
+                    <div class="flex justify-center">
+                        <a class="btn bg-[#ABEF5F33] rounded-[50px] shaddow-0 mb-1.5">
+                            <img class="w-[25px]" src="./assets/left-arrow.png" alt=""/>Let’s Connect
+                        </a>
+                    </div>
+                    <h1 class="text-2xl lg:text-6xl font-bold text-[#212121] mb-2.5 text-center">Let’s Discuss Next Project</h1>
+                    <p class="text-lg text-[#494949] mb-3.5 text-center">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+                    <div class="md:w-[65%] mx-auto sm:px-2.5">
+                        <div>
+                            <div class="mt-2">
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+                                    <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-[#fff] p-3  text-gray-900 placeholder:text-gray-400 rounded-3xl pl-3" placeholder="First Name*">
+                                    <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-[#fff] p-3  text-gray-900 placeholder:text-gray-400 rounded-3xl pl-3 sm:mt-2" placeholder="Last Name*">
+                                </div>
+                                <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 pt-4">
+                                    <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-[#fff] p-3  text-gray-900 placeholder:text-gray-400 rounded-3xl pl-3" placeholder="Phone Number*">
+                                    <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-[#fff] p-3  text-gray-900 placeholder:text-gray-400 rounded-3xl pl-3" placeholder="Email Number*">
+                                </div>
+                                <div>
+                                    <div class="pt-4">
+                                        <textarea id="about" name="about" rows="10" class=" rounded-3xl block w-full border-0 p-3 text-gray-900 placeholder:text-gray-400 " placeholder="Write your message here"></textarea>
+                                    </div>
+                                </div>
+                                <a class="mt-4 bg-[#ABEF5F] flex justify-center	 p-3.5 gap-2 font-bold text-xl border-none shadow-none rounded-[50px]">Send Mail
+                                <img class="w-[25px]" src="./assets/arrow-up.png" alt=""/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
         </main>
-		<footer></footer>
+		<footer class="bg-[#1C1C1C] py-10 lg:py-20 ">
+            <div class="md:container mx-auto">
+                <div class="flex justify-center">
+                    <img class="content-center w-[250px]" src="./assets/logo-white.png" alt="">
+                </div>
+                <p class=" pt-3 text-lg text-[#494949] mb-3.5 text-center">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+                    <div>
+                        <ul class="flex flex-col lg:flex-row justify-center items-center gap-5 pt-5">
+                            <li class="text-[#E9E9E9]">Home</li>
+                            <li class="text-[#E9E9E9]">Services</li>
+                            <li class="text-[#E9E9E9]">Portfolio</li>
+                            <li class="text-[#E9E9E9]">Blogs</li>
+                            <li class="text-[#E9E9E9]">Contact Us</li>
+                        </ul>
+                    </div>
+                    <div class="flex justify-center pt-5">
+                        <a class="btn bg-[#ABEF5F] rounded-[50px] border-none"
+						>Book Consult
+						<img class="w-[25px]" src="./assets/arrow-up.png" alt=""
+					/></a>
+                    </div>
+            </div>
+            
+        </footer>
 	</body>
 </html>
